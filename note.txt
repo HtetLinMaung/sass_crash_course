@@ -1,0 +1,13 @@
+### setting.json for live sass extension
+
+"liveSassCompile.settings.formats": [
+        {
+            "format": "compressed",
+            "extensionName": ".css",
+            "savePath": "/css"
+        }
+    ],
+"liveSassCompile.settings.generateMap": false
+
+### for command line user
+sass --watch scss/style.scss css/style.css
